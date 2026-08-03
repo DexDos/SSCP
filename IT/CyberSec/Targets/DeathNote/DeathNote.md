@@ -1,0 +1,36 @@
+---
+tags:
+  - IT/CS/CTF
+type: cybersec-target
+Source:
+CS themes:
+  - CS-lab
+---
+## Overview
+**Purpose**: reinforce the basics
+**OS**: Ubuntu
+**Difficulty**: #IT/CS/CTF/Easy 
+
+### Key notes
+The machine is designed to represent a piece of contest between *Kira* and *L* (yep, the characters of the Deatnote anime, which has presumably inspired the whole series of the Deathnote machines). There are many hints here and there. Two ways of gaining the access phase. Nothing way too special.
+### Approaches
+Utilize the regular procedure of a [[Standard pentest model|pentest case]].
+### Weaknesses to leverage
+- Reverse shell
+- Confidential data exposure
+## Deployment of an instance
+The machine is reachable on the [vulnhub](https://www.vulnhub.com/entry/deathnote-1,739/).
+
+Simply run the file with the *VirtualBox* or *VMWare* and it will import an image.
+## Cases
+
+| link                                                         | description                                           |
+| ------------------------------------------------------------ | ----------------------------------------------------- |
+| [[IT/CyberSec/Targets/DeathNote/1\|The regular walkthrough]] | Regular walkthrough featuring somewhat brief comments |
+## Flags
+
+| received on | flag |
+| ----------- | ---- |
+|             |      |
+
+
