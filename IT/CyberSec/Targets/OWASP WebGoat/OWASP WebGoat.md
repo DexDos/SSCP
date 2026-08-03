@@ -137,7 +137,7 @@ Afterwards we can turn the proxy profile on and test our proxy:
 
 ### Common problems 
 There is a common problem which happens when users try to use Burp against resources hosted locally. Burp simply wouldn't see the traffic. According to some resources, this happens so the burp won't explode with a great number of traffic which is being sent over the standard interface among the machine services. To bypass this limitation we simply need to modify host aliases in `/etc/hosts` so that burp treats our resource not as a local one: 
-![hosts file](../../../../IMGs/Pasted%20image%2020260801173207.png) 
+![hosts file](../../../../Cache/IMGs/Pasted%20image%2020260801173207.png) 
 
 By doing so we now may see the traffic by requesting `http://localhost.com:8080/WebGoat/login` page: 
 
