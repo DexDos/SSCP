@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/1.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/1.md",
                 "mode": "preview",
                 "source": true
               },
@@ -190,8 +190,13 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
-    "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/2.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/3.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/4.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
     "IT/CyberSec/Targets/OWASP WebGoat/1.md",
+    "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
     "Cache/IMGs/Pasted image 20260801173207.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw 1.png",
@@ -214,8 +219,6 @@
     "Cache/IMGs",
     "IT/CyberSec/Targets/DeathNote/1.md",
     "IT/CyberSec/Targets/DeathNote/DeathNote.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/1.md",
     "IT/CyberSec/Targets/OWASP WebGoat/basics.md",
@@ -232,8 +235,6 @@
     "IT/CyberSec/Targets/OWASP WebGoat/7.md",
     "IT/CyberSec/Targets/OWASP WebGoat/6.md",
     "IT/CyberSec/Targets/OWASP WebGoat/5.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/4.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/4.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/3.md"
+    "IT/CyberSec/Targets/OWASP WebGoat/4.md"
   ]
 }
