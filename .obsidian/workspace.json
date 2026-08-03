@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/DeathNote/1.md",
-                "mode": "source",
-                "source": false
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "OWASP WebGoat"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2020260730173432",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -188,7 +189,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "06ee0accb5a0f035",
+  "active": "ad01366901ca33e1",
   "lastOpenFiles": [
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw 1.png",
@@ -211,6 +212,7 @@
     "Cache/IMGs/hacking_tools_cheat_sheet_v2.0.pdf",
     "Cache/IMGs/hacking_tools_cheat_sheet_v2.0 1.pdf",
     "Cache/IMGs",
+    "IT/CyberSec/Targets/DeathNote/1.md",
     "IT/CyberSec/Targets/DeathNote/DeathNote.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
@@ -234,7 +236,6 @@
     "IT/CyberSec/Targets/OWASP WebGoat/4.md",
     "IT/CyberSec/Targets/OWASP WebGoat/1.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/4.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/3.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/2.md"
+    "IT/CyberSec/Targets/OWASP Juice Shop/3.md"
   ]
 }
