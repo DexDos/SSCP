@@ -12,9 +12,9 @@ CS themes:
 **Difficulty**: #IT/CS/CTF/Easy 
 
 ### Key notes
-The machine is designed to represent a piece of contest between *Kira* and *L* (yep, the characters of the Deatnote anime, which has presumably inspired the whole series of the Deathnote machines). There are many hints here and there. Two ways of gaining the access phase. Nothing way too special.
+The machine is designed to represent a piece of contest between *Kira* and *L* (yep, the characters of the Deathnote anime, which has presumably inspired the whole series of the Deathnote machines). There are many hints here and there. Two ways of gaining the access phase. Nothing way too special.
 ### Approaches
-Utilize the regular procedure of a [[Standard pentest model|pentest case]].
+Utilize the regular procedure of a [pentest case](Standard%20pentest%20model.md).
 ### Weaknesses to leverage
 - Reverse shell
 - Confidential data exposure
@@ -26,11 +26,9 @@ Simply run the file with the *VirtualBox* or *VMWare* and it will import an imag
 
 | link                                                         | description                                           |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
-| [[IT/CyberSec/Targets/DeathNote/1\|The regular walkthrough]] | Regular walkthrough featuring somewhat brief comments |
+| [The regular walkthrough](1.md) | Regular walkthrough featuring somewhat brief comments |
 ## Flags
 
 | received on | flag |
 | ----------- | ---- |
 |             |      |
-
-
