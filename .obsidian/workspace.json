@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OWASP WebGoat"
+              "title": "1"
             }
           }
         ]
@@ -79,12 +79,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "868f2555f7818437",
@@ -191,6 +190,7 @@
   },
   "active": "ad01366901ca33e1",
   "lastOpenFiles": [
+    "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw 1.png",
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
@@ -206,7 +206,6 @@
     "Cache/IMGs/Pasted image 20260803131852.png",
     "Cache/IMGs/Pasted image 20260803131628.png",
     "Cache/IMGs/Pasted image 20260803131347.png",
-    "Cache/IMGs/Pasted image 20260803131223.png",
     "Cache/IMGs/nmap_mindmap.pdf",
     "Cache/IMGs/Kali-Linux-Cheat-Sheet-1.pdf",
     "Cache/IMGs/hacking_tools_cheat_sheet_v2.0.pdf",
@@ -218,7 +217,6 @@
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/1.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
     "IT/CyberSec/Targets/OWASP WebGoat/basics.md",
     "IT/CyberSec/Targets/OWASP WebGoat/3.md",
     "IT/CyberSec/Targets/OWASP WebGoat/2.md",
