@@ -111,12 +111,15 @@ $ docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 we
 We also need to register: 
 
 ![registration 1](../../../../Cache/IMGs/Pasted%20image%2020260801152505.png) 
+
 Fill out the registration form: 
 
 ![registration 2](../../../../Cache/IMGs/Pasted%20image%2020260801152542.png) 
+
 We may now proceed to the assignments: 
 
 ![assignments](../../../../Cache/IMGs/Pasted%20image%2020260801152609.png) 
+
 ## HTTP Proxy
 Let's turn on our HTTP proxy in order to study HTTP traffic. 
 ### FoxyProxy
@@ -124,9 +127,11 @@ Let's turn on our HTTP proxy in order to study HTTP traffic.
 We are using **FoxyProxy** one, but you are free to use any you like: 
 
 ![foxyproxy](../../../../Cache/IMGs/Pasted%20image%2020260801154037.png) 
+
 Proxy configuration: 
 
 ![proxy config](../../../../Cache/IMGs/Pasted%20image%2020260801162147.png) 
+
 > [!question]- How does an http proxy work 
 > Let's break this down. Usually, when we surf the internet our browser establishes a connection with it using some port on our local machine: 
 >![direct connection](../../../../Cache/IMGs/Pasted%20image%2020260801160219.png) 
@@ -137,7 +142,10 @@ Proxy configuration:
 >![proxy connection](../../../../Cache/IMGs/Pasted%20image%2020260801161248.png) 
 >
 >So that we are able to control the traffic flow and perform various attacks in the way neither server, nor the client can spot our intrusion. 
->The proxy itself is a technology that redirects traffic. This technology can be used to send HTTP Connect method, thus redirecting traffic completely via proxy server. However, in this case we simply redirecting in and outbound traffic to the port specified. By default, Burp Suite listens on the 8080 port. Unfortunately, the WebGoat server listens on the exact same port. To evade any kind of conflict we have specified `8123` port for FoxyProxy configuration. 
+>The proxy itself is a technology that redirects traffic. This technology can be used to send HTTP Connect method, thus redirecting traffic completely via proxy server.
+
+
+However, in this case we simply redirecting in and outbound traffic to the port specified. By default, Burp Suite listens on the 8080 port. Unfortunately, the WebGoat server listens on the exact same port. To evade any kind of conflict we have specified `8123` port for FoxyProxy configuration. 
 
 ### Burp Suite
 We have picked the **Burp Suite** to be the program which will be intercepting our http traffic. However there are various programs to use instead. For example **ZAP**. Let's configure the Burp Proxy:
@@ -147,6 +155,7 @@ We have picked the **Burp Suite** to be the program which will be intercepting o
 Then we need to specify the socket which we will be listening: `loopback:8123`: 
 
 ![burp proxy 2](../../../../Cache/IMGs/Pasted%20image%2020260801162812.png) 
+
 Afterwards we can turn the proxy profile on and test our proxy: 
 
 ![burp proxy test](../../../../Cache/IMGs/Pasted%20image%2020260801163203.png) 
@@ -159,6 +168,7 @@ There is a common problem which happens when users try to use Burp against resou
 By doing so we now may see the traffic by requesting `http://localhost.com:8080/WebGoat/login` page: 
 
 ![burp traffic](../../../../Cache/IMGs/Pasted%20image%2020260801173134.png) 
+
 Alternatively we can simply use Burp built-in browser: 
 
 ![burp browser 1](../../../../Cache/IMGs/Pasted%20image%2020260801173327.png) 
@@ -166,12 +176,13 @@ Alternatively we can simply use Burp built-in browser:
 The result is pretty much the same: 
 
 ![burp browser 2](../../../../Cache/IMGs/Pasted%20image%2020260801173302.png) 
+
 ## Cases 
 There are two introductory sections: *introduction* and *general*. - **Introduction** lists some basic facts about WebGoat and WebWolf further usage. - **General** dives a bit into the networking, dev tools and other stuff. These sections are pretty basic do not cover any specific information. They are aimed to introduce the user to some fundamental concepts and tools which are necessary for further assignments.
 
 | link | status | description |
 | --- | --- | --- | 
-| [Broken Access Control](./1.md) | **done \| uploaded** | |
+| [Broken Access Control](./1.md) | **done \| uploaded** | The SS assignment |
 | [Cryptographic failures](./2.md) | done \| not reachable | | 
 | [Injection](./3.md) | done \| not reachable | | 
 | [Security Misconfiguration](./4.md) | done \| not reachable | | 
