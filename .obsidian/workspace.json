@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/C0ldBox/1.md",
+                "file": "IT/CyberSec/IDS_IPS/Suricata.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "Suricata"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
-    "Cache/IMGs/Pasted image 20260725174341.png",
     "IT/CyberSec/Targets/C0ldBox/1.md",
+    "Cache/IMGs/Pasted image 20260725174341.png",
     "Cache/IMGs/Pasted image 20260729010647.png",
     "Cache/IMGs/Pasted image 20260729013951.png",
     "Cache/IMGs/Pasted image 20260728125937.png",
@@ -215,7 +215,6 @@
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
     "Cache/IMGs/Полный гайд по Turbo Intruder.pdf",
     "Cache/IMGs/WEB_II.png",
-    "Cache/IMGs/WAF.png",
     "Cache/IMGs/Untitled.base",
     "Cache/IMGs/rfc1180.pdf",
     "Cache/IMGs/RFC1180-русский-перевод.pdf",
