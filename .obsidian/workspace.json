@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "IT/CyberSec/Targets/OWASP WebGoat/1.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "1"
@@ -191,8 +191,8 @@
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
-    "Cache/IMGs/Pasted image 20260801173207.png",
     "IT/CyberSec/Targets/OWASP WebGoat/1.md",
+    "Cache/IMGs/Pasted image 20260801173207.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw.png",
     "Cache/IMGs/╨┤╨╛╤Б╨║╨░_╨╕╨╖_╨▓╨╕╨┤╨╡╨╛.excalidraw 1.png",
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
