@@ -47,6 +47,7 @@ The main approach is to carefully read instructions and creatively study the req
 The machine requires at least two ports for two services: WebGoat and WebWolf – the target and attack utility website respectively. Consequently, the machine needs to be provided with at least two ports for them to start properly: `8080` and `9090`.
 
 Let's write a docker compose file so we may use this container later.
+
 >[!quote]+ The command
 >`$ vim docker-compose.yml`
 >
@@ -59,14 +60,17 @@ The file needs no be composed in a certain syntax of `.yml` and contain specific
 In this case we have defined a single docker container with two ports (`8080` and `9090`) forwarded. We have also specified a rule `restart: always`, which makes Docker CLI restart this container every time it is getting shut down, restarted and so on. Practically, this means that this container will be started every time the machine starts. In our case, we run WebGoat on a local private server (Ubuntu server LTS v24) so that the WebGoat will be started subsequently.
 
 We may then run `docker compose up -d` to start the container (Docker reads the file and deploys services specified) and check availability with `docker ps` command:
+
 ![docker ps](../../../../Cache/IMGs/Pasted%20image%2020260801130201.png)
 
 After a while we may study logs by running ` $ docker compose logs webgoat` command:
+
 ![docker compose logs](../../../../Cache/IMGs/Pasted%20image%2020260730173629.png)
 
 Note that in logs there is this direction: browse to `http://:8080/WebGoat`. We are going to need it somewhat later
 
 Then we are going to need an IP-address. To retrieve it we need find out our IP range with `$ ip a` command:
+
 ![ip a](../../../../Cache/IMGs/Pasted%20image%2020260730173958.png)
 
 Assuming that our connection to the network is provided with Ethernet connection, the adapter we are looking for would be `eth0`or  `ens33` one. For now we need to obtain the local IP address of the server we will need to use the `netdiscover command`
@@ -80,6 +84,7 @@ Assuming that our connection to the network is provided with Ethernet connection
 > More about [netdiscover](../../../../netdiscover.md)
 
 The output of the command:
+
 ![netdiscover output](../../../../Cache/IMGs/Pasted%20image%2020260730173827.png)
 
 We have obtained three IP-addresses as candidates for being target's address. Let's break them down:
@@ -99,6 +104,7 @@ Alternatively, we may run WebGoat locally:
 ```
 $ docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat
 ```
+
 ![docker run](../../../../Cache/IMGs/Pasted%20image%2020260801152312.png) 
 
 ## Registration
@@ -121,7 +127,17 @@ We are using **FoxyProxy** one, but you are free to use any you like:
 Proxy configuration: 
 
 ![proxy config](../../../../Cache/IMGs/Pasted%20image%2020260801162147.png) 
-> [!question]- How does an http proxy work >Let's break this down. Usually, when we surf the internet our browser establishes a connection with it using some port on our local machine: >![direct connection](../../../../Cache/IMGs/Pasted%20image%2020260801160219.png) >This procedure grans a way to study the traffic with some kind of software like **Wireshark**. Unfortunately, by simply listening the traffic we are unable to perform many kinds of MITM attacks due to the matter of fact that we cannot stop a packet (intercept) and spoof some value before it reaches the server (or the client). Of course we may attempt jamming the channel, but this comes with some drawbacks. >We may establish an HTTP Proxy connection instead: >![proxy connection](../../../../Cache/IMGs/Pasted%20image%2020260801161248.png) >So that we are able to control the traffic flow and perform various attacks in the way neither server, nor the client can spot our intrusion. >The proxy itself is a technology that redirects traffic. This technology can be used to send HTTP Connect method, thus redirecting traffic completely via proxy server. However, in this case we simply redirecting in and outbound traffic to the port specified. By default, Burp Suite listens on the 8080 port. Unfortunately, the WebGoat server listens on the exact same port. To evade any kind of conflict we have specified `8123` port for FoxyProxy configuration. 
+> [!question]- How does an http proxy work 
+> Let's break this down. Usually, when we surf the internet our browser establishes a connection with it using some port on our local machine: 
+>![direct connection](../../../../Cache/IMGs/Pasted%20image%2020260801160219.png) 
+>
+>This procedure grans a way to study the traffic with some kind of software like **Wireshark**. Unfortunately, by simply listening the traffic we are unable to perform many kinds of MITM attacks due to the matter of fact that we cannot stop a packet (intercept) and spoof some value before it reaches the server (or the client). Of course we may attempt jamming the channel, but this comes with some drawbacks. 
+>
+>We may establish an HTTP Proxy connection instead: 
+>![proxy connection](../../../../Cache/IMGs/Pasted%20image%2020260801161248.png) 
+>
+>So that we are able to control the traffic flow and perform various attacks in the way neither server, nor the client can spot our intrusion. 
+>The proxy itself is a technology that redirects traffic. This technology can be used to send HTTP Connect method, thus redirecting traffic completely via proxy server. However, in this case we simply redirecting in and outbound traffic to the port specified. By default, Burp Suite listens on the 8080 port. Unfortunately, the WebGoat server listens on the exact same port. To evade any kind of conflict we have specified `8123` port for FoxyProxy configuration. 
 
 ### Burp Suite
 We have picked the **Burp Suite** to be the program which will be intercepting our http traffic. However there are various programs to use instead. For example **ZAP**. Let's configure the Burp Proxy:
@@ -136,7 +152,9 @@ Afterwards we can turn the proxy profile on and test our proxy:
 ![burp proxy test](../../../../Cache/IMGs/Pasted%20image%2020260801163203.png) 
 
 ### Common problems 
-There is a common problem which happens when users try to use Burp against resources hosted locally. Burp simply wouldn't see the traffic. According to some resources, this happens so the burp won't explode with a great number of traffic which is being sent over the standard interface among the machine services. To bypass this limitation we simply need to modify host aliases in `/etc/hosts` so that burp treats our resource not as a local one: ![hosts file](../../../../IMGs/Pasted%20image%2020260801173207.png) 
+There is a common problem which happens when users try to use Burp against resources hosted locally. Burp simply wouldn't see the traffic. According to some resources, this happens so the burp won't explode with a great number of traffic which is being sent over the standard interface among the machine services. To bypass this limitation we simply need to modify host aliases in `/etc/hosts` so that burp treats our resource not as a local one: 
+
+![hosts file](../../../../IMGs/Pasted%20image%2020260801173207.png) 
 
 By doing so we now may see the traffic by requesting `http://localhost.com:8080/WebGoat/login` page: 
 
