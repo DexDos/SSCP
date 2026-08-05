@@ -85,7 +85,7 @@ Assuming that our connection to the network is provided with Ethernet connection
 
 The output of the command:
 
-![netdiscover output](../../../../Cache/IMGs/Pasted%20image%2020260730173827.png)
+![netdiscover output](../../../../Cache/IMGs/Pasted%20image%2020260730173828.png)
 
 We have obtained three IP-addresses as candidates for being target's address. Let's break them down:
 - `192.168.31.1` — the *1* in the last octet gives us information that this IP is related to the network address and is being monitored by the router.
