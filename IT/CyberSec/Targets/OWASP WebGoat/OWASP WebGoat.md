@@ -184,7 +184,7 @@ There are two introductory sections: *introduction* and *general*. - **Introduct
 | ------------------------------------- | ----------------- | --------------- | ------------------------ |
 | [Broken Access Control](./1.md)       | done              | yes             | The SS assignment        |
 | [Cryptographic failures](./2.md)      | done              | yes             | Basic cryptography stuff |
-| [Injection](./3.md)                   | done              | yes             | SQLI manual              |
+| [Injection](./3.md)                   | done              | partially       | SQLI manual              |
 | [Security Misconfiguration](./4.md)   | done              |                 |                          |
 | [Vuln & Outdated Components](./5.md)  | to be done        |                 |                          |
 | [Identity & Auth Failure](./6.md)     | to be done        |                 |                          |
