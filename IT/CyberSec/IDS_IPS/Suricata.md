@@ -185,7 +185,7 @@ $ sudo systemctl status suricata
 
 So that it becomes **inactive**:
 
-![Pasted image 20260803122721.png](../../../../Cache/IMGs/Pasted%20image%2020260803122721.png)
+![Pasted image 20260803122721.png](../../../Cache/IMGs/Pasted%20image%2020260803122721.png)
 
 Let's then create a custom rules file within the standard `/var/lib/suricata/rules/` directory:
 
@@ -210,7 +210,7 @@ Let's create 5 custom rules, which are aimed to detect some diverse patterns:
 
 The rules listing screenshot:
 
-![Pasted image 20260803130336.png](../../../../Cache/IMGs/Pasted%20image%2020260803130336.png)
+![Pasted image 20260803130336.png](../../../Cache/IMGs/Pasted%20image%2020260803130336.png)
 
 A slightly more convenient way to list the custom rules:
 
@@ -232,17 +232,17 @@ alert tcp $HOME_NET any ->$EXTERNAL_NET 873 (msg:"CUSTOM RSYNC: Outbound Sync Se
 ```
 
 So that we now need to update a `suricata.yaml` file in order for Suricata to take care of the custom rules. By running `$ sudo vim /etc/suricata/suricata.yaml` we can access the file itself and then we need to find `default-rule-path` directive and modify `rule-files` by adding a just created one to the list:
-![Pasted image 20260803124319.png](../../../../Cache/IMGs/Pasted%20image%2020260803124319.png)
+![Pasted image 20260803124319.png](../../../Cache/IMGs/Pasted%20image%2020260803124319.png)
 
 We now may run a `suricata.yaml` syntax comparability check with `$ sudo suricata -T -c /etc/suricata/suricata.yaml`:
-![Pasted image 20260803130319.png](../../../../Cache/IMGs/Pasted%20image%2020260803130319.png)
+![Pasted image 20260803130319.png](../../../Cache/IMGs/Pasted%20image%2020260803130319.png)
 
 Since the check has been completed successfully, we may now move on to the deployment stage.
 
 ### Restarting and resting
 
 Let's run Suricata as a process by `$ sudo suricata -c /etc/suricata/suricata.yaml -i eth0 -v`:
-![Pasted image 20260803131628.png](../../../../Cache/IMGs/Pasted%20image%2020260803131628.png)
+![Pasted image 20260803131628.png](../../../Cache/IMGs/Pasted%20image%2020260803131628.png)
 
 Alternatively, we may start the daemon with `$ sudo systemctl start suricata`. Basically, it is a matter of choice, but there are some key differences:
 
@@ -252,14 +252,14 @@ Alternatively, we may start the daemon with `$ sudo systemctl start suricata`. B
     
 
 Let's test both _GET method_ rule and _keyword rule_:
-![Pasted image 20260803131223.png](../../../../Cache/IMGs/Pasted%20image%2020260803131223.png)
+![Pasted image 20260803131223.png](../../../Cache/IMGs/Pasted%20image%2020260803131223.png)
 
 As we can see, both rules have been triggered by the same action (as expected).
 
 Let's ping the machine by IP and see if the _ICMP_ rule is triggered:
-![Pasted image 20260803131347.png](../../../../Cache/IMGs/Pasted%20image%2020260803131347.png)
+![Pasted image 20260803131347.png](../../../Cache/IMGs/Pasted%20image%2020260803131347.png)
 
 So that we have confidently verified that the custom rules are applied.
 
 As it usually getting passed to the `journalctl` (when run as a daemon), there is a log with an amount of alerts triggered:
-![Pasted image 20260803131852.png](../../../../Cache/IMGs/Pasted%20image%2020260803131852.png)
+![Pasted image 20260803131852.png](../../../Cache/IMGs/Pasted%20image%2020260803131852.png)
