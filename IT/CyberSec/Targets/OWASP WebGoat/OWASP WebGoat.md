@@ -141,6 +141,8 @@ Proxy configuration:
 >We may establish an HTTP Proxy connection instead: 
 >![proxy connection](../../../../Cache/IMGs/Pasted%20image%2020260801161248.png) 
 >
+>==Technically, **Burp Suite** is a HTTP Proxy itself.== The other instance is made up to illustrate the point. By default browser sends traffic to the Burp Suite directly and then Burp sends the packet to the target server. ==**There is no in-between instance.**==
+>
 >So that we are able to control the traffic flow and perform various attacks in the way neither server, nor the client can spot our intrusion. 
 >The proxy itself is a technology that redirects traffic. This technology can be used to send HTTP Connect method, thus redirecting traffic completely via proxy server.
 
