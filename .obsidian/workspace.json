@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/2.md",
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2"
+              "title": "OWASP WebGoat"
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "IT/CyberSec/Targets/OWASP WebGoat/2.md",
+    "Pasted image 20260804210451.png.md",
     "README.md",
     "Cache/IMGs/Splunk practice task for quiz.pdf",
     "Cache/IMGs/Pasted image 20260804211000.png",
@@ -202,8 +204,6 @@
     "Cache/IMGs/Pasted image 20260804205408.png",
     "Cache/IMGs/Pasted image 20260804204920.png",
     "Cache/IMGs/Pasted image 20260804201458.png",
-    "Pasted image 20260804210451.png.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/2.md",
     "IT/CyberSec/Targets/OWASP WebGoat/1.md",
     "IT/CyberSec/IDS_IPS/Suricata.md",
     "IT/CyberSec/Targets/C0ldBox/1.md",
