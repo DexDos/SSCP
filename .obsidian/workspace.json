@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
-                "mode": "preview",
+                "file": "IT/CyberSec/SIEM/Splunk.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "3"
+              "title": "Splunk"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
+                "file": "IT/CyberSec/SIEM/Splunk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,12 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "Cache/IMGs/Pasted image 20260804185119.png",
+    "IT/CyberSec/SIEM/Splunk.md",
+    "Cache/IMGs/Pasted image 20260803213355.png",
+    "IT/CyberSec/Targets/OWASP WebGoat/2.md",
+    "IT/CyberSec/SIEM/SIEM.md",
+    "IT/CyberSec/Targets/OWASP WebGoat/3.md",
     "Cache/IMGs/Pasted image 20260805234642.png",
     "Cache/IMGs/Pasted image 20260805234801.png",
     "Cache/IMGs/Pasted image 20260806122950.png",
@@ -198,11 +204,7 @@
     "Cache/IMGs/Pasted image 20260806143602.png",
     "Cache/IMGs/Pasted image 20260806145510.png",
     "Cache/IMGs/Pasted image 20260806145536.png",
-    "Cache/IMGs/Pasted image 20260806145648.png",
-    "Cache/IMGs/Pasted image 20260806145901.png",
-    "Cache/IMGs/Pasted image 20260806150132.png",
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/3.md",
     "Pasted image 20260805194038.png.md",
     "Pasted image 20260805151314.png.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
@@ -210,7 +212,6 @@
     "IT/CyberSec/Targets/OWASP Juice Shop/3.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/2.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/1.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/2.md",
     "Pasted image 20260804210451.png.md",
     "README.md",
     "Cache/IMGs/Splunk practice task for quiz.pdf",
@@ -233,8 +234,6 @@
     "Cache/IMGs/hacking_tools_cheat_sheet_v2.0 1.pdf",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
     "IT/CyberSec/Targets/OWASP WebGoat/basics.md",
-    "IT/CyberSec/IDS_IPS/SNORT.md",
-    "IT/CyberSec/IDS_IPS/IDS_IPS.md",
-    "IT/CyberSec/SIEM/Splunk.md"
+    "IT/CyberSec/IDS_IPS/SNORT.md"
   ]
 }
