@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "3"
@@ -99,8 +99,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT/CyberSec/Targets/DeathNote/1.md",
-                "collapseAll": false,
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/DeathNote/1.md",
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,12 +170,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,18 +190,19 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "Cache/IMGs/Pasted image 20260805234642.png",
+    "Cache/IMGs/Pasted image 20260805234801.png",
+    "Cache/IMGs/Pasted image 20260806122950.png",
+    "Cache/IMGs/Pasted image 20260806131710.png",
+    "Cache/IMGs/Pasted image 20260806140934.png",
+    "Cache/IMGs/Pasted image 20260806143602.png",
+    "Cache/IMGs/Pasted image 20260806145510.png",
+    "Cache/IMGs/Pasted image 20260806145536.png",
+    "Cache/IMGs/Pasted image 20260806145648.png",
+    "Cache/IMGs/Pasted image 20260806145901.png",
+    "Cache/IMGs/Pasted image 20260806150132.png",
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
-    "Cache/IMGs/Pasted image 20260730173828.png",
-    "Cache/IMGs/Pasted image 20260730173827 (2).png",
-    "Cache/IMGs/Pasted image 20260730173827 — копия.png",
     "IT/CyberSec/Targets/OWASP WebGoat/3.md",
-    "Cache/IMGs/Pasted image 20260805193534.png",
-    "Cache/IMGs/Pasted image 20260805193730.png",
-    "Cache/IMGs/Pasted image 20260805194038.png",
-    "Cache/IMGs/Pasted image 20260805204917.png",
-    "Cache/IMGs/Pasted image 20260805205108.png",
-    "Cache/IMGs/Pasted image 20260805205643.png",
-    "Cache/IMGs/Pasted image 20260805205653.png",
     "Pasted image 20260805194038.png.md",
     "Pasted image 20260805151314.png.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
