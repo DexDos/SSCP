@@ -45,7 +45,8 @@ The assignments accomplished are listed here
 | [Sensitive data exposure](3.md) | 1/6<br>4/6 | Utilizing `ffuf` to eventually retrieve a document from a hidden (disallowed in `robots.txt`) route. <br>**Easter Egg** |
 | [Admin login](4.md)             | 2/6        | Basic sqli                                                                                                              |
 | [User Credentials](5.md)        | 4/6        | Slightly advanced sqli                                                                                                  |
-| [[6\|Ephemeral Accountant]]     | 4/6        | SQLite schema retention, sqli login as not existing user                                                                |
+| [Ephemeral Accountant](5.md)    | 4/6        | SQLite schema retention, sqli login as not existing user                                                                |
+
 ## Flags
 The flags captured are listed here
 
