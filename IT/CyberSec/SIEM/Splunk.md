@@ -57,9 +57,7 @@ There is an opportunity to experience a **free trial** on the [official website]
 
 ![Pasted image 20260803213355.png](../../../Cache/IMGs/Pasted%20image%2020260803213355.png)
 
-12. There is a quiz assignment to be done afterwards:
-
-![Splunk practice task for quiz.pdf](../../../Cache/IMGs/Splunk%20practice%20task%20for%20quiz.pdf)
+12. There is a quiz assignment to be done afterwards: [Splunk practice task for quiz.pdf](../../../Cache/IMGs/Splunk%20practice%20task%20for%20quiz.pdf)
 
 ### Completion
 Proceed to "*Search & Reporting*":

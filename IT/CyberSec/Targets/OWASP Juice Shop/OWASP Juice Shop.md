@@ -31,7 +31,7 @@ Deployment is usually done in various ways:
 - `juice-shop-<version>_<node-version>_<os>_x64.zip` packet installation
 
 Command for docker container deployment:
-> `docker run --rm -p 3000:3000 bkimminich/juice-shop`
+> `docker run --name juice-shop -it -p 3000:3000 bkimminich/juice-shop`
 
 Ultimately, we are getting pretty much the same result:
 ![Pasted image 20260802132120.png](../../../../Cache/IMGs/Pasted%20image%2020260802132120.png)
