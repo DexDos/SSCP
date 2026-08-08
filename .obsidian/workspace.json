@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP Juice Shop"
+              "title": "7"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,19 +190,22 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
-    "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
-    "Cache/IMGs/Pasted image 20260806222418.png",
-    "Cache/IMGs/Pasted image 20260807030011.png",
-    "Cache/IMGs/Pasted image 20260807030307.png",
-    "Cache/IMGs/Pasted image 20260807030327.png",
-    "Cache/IMGs/Pasted image 20260807030339.png",
-    "Cache/IMGs/Pasted image 20260807030543.png",
-    "Cache/IMGs/Pasted image 20260807030838.png",
-    "Cache/IMGs/Pasted image 20260807031349.png",
-    "Cache/IMGs/Pasted image 20260807031707.png",
-    "Cache/IMGs/Pasted image 20260807031824.png",
-    "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
+    "Cache/IMGs/Pasted image 20260807180241.png",
+    "Cache/IMGs/Pasted image 20260807183107.png",
+    "Cache/IMGs/Pasted image 20260807183229.png",
+    "Cache/IMGs/Pasted image 20260807184054.png",
+    "Cache/IMGs/Pasted image 20260807184055.png",
+    "Cache/IMGs/Pasted image 20260807184211.png",
+    "Cache/IMGs/Pasted image 20260807184305.png",
+    "Cache/IMGs/Pasted image 20260807184939.png",
+    "Cache/IMGs/Pasted image 20260807195919.png",
+    "Cache/IMGs/Pasted image 20260807200006.png",
+    "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
+    "JWT.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
     "IT/CyberSec/SIEM/Splunk.md",
     "IT/CyberSec/Targets/OWASP WebGoat/2.md",
     "IT/CyberSec/SIEM/SIEM.md",
@@ -223,7 +226,6 @@
     "IT/CyberSec/Targets/C0ldBox/C0lddbox.md",
     "IT/CyberSec/Targets/C0ldBox/2.md",
     "IT/CyberSec/Targets/DeathNote/1.md",
-    "IT/CyberSec/Targets/DeathNote/DeathNote.md",
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
     "Cache/IMGs/Полный гайд по Turbo Intruder.pdf",
     "Cache/IMGs/Untitled.base",
@@ -232,8 +234,6 @@
     "Cache/IMGs/nmap_mindmap.pdf",
     "Cache/IMGs/Kali-Linux-Cheat-Sheet-1.pdf",
     "Cache/IMGs/hacking_tools_cheat_sheet_v2.0.pdf",
-    "Cache/IMGs/hacking_tools_cheat_sheet_v2.0 1.pdf",
-    "IT/CyberSec/Targets/OWASP WebGoat/basics.md",
-    "IT/CyberSec/IDS_IPS/SNORT.md"
+    "Cache/IMGs/hacking_tools_cheat_sheet_v2.0 1.pdf"
   ]
 }
