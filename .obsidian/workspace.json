@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7"
+              "title": "OWASP Juice Shop"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,12 +190,12 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
     "Cache/IMGs/Pasted image 20260809022048.png",
     "Cache/IMGs/Pasted image 20260809022551.png",
     "Cache/IMGs/Pasted image 20260809023431.png",
     "Cache/IMGs/Pasted image 20260809023916.png",
     "Cache/IMGs/Pasted image 20260807200729.png",
-    "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
     "Cache/IMGs/Pasted image 20260807231039.png",
     "Cache/IMGs/Pasted image 20260807230542.png",
     "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
@@ -203,7 +203,6 @@
     "Cache/IMGs/Pasted image 20260807180241.png",
     "Cache/IMGs/Pasted image 20260807183107.png",
     "Cache/IMGs/Pasted image 20260807183229.png",
-    "Cache/IMGs/Pasted image 20260807184054.png",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
     "JWT.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
