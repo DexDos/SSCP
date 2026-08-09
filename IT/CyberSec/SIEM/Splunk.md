@@ -11,7 +11,7 @@ The concept:
 ---
 ---
 ## Overview
-**Splunk** is a popular [SIEM](SIEM) tool that is known for its powerful search and analytics capabilities. It can collect, store, and analyze data from a wide variety of sources, including logs, events, and metrics. Splunk is also highly scalable, making it a good choice for organizations of all sizes. Some of the key features of Splunk include:
+**Splunk** is a popular [SIEM](SIEM.md) tool that is known for its powerful search and analytics capabilities. It can collect, store, and analyze data from a wide variety of sources, including logs, events, and metrics. Splunk is also highly scalable, making it a good choice for organizations of all sizes. Some of the key features of Splunk include:
 ### Key features
 - **Powerful search and analytics**: Splunk's search language is very powerful and can be used to query and analyze data from any source.
 

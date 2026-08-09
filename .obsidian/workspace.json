@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "IT/CyberSec/SIEM/Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "922b4452d2d388d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "d01cdd6ae7213c13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT/CyberSec/IDS_IPS/IDS_IPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IDS_IPS"
+              "title": "Splunk"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "IT/CyberSec/SIEM/Splunk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,12 +188,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "922b4452d2d388d2",
+  "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "README.md",
     "IT/CyberSec/IDS_IPS/Suricata.md",
     "IT/CyberSec/IDS_IPS/IDS_IPS.md",
     "IT/CyberSec/SIEM/Splunk.md",
-    "README.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
     "Cache/IMGs/Pasted image 20260809022048.png",
