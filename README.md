@@ -9,8 +9,8 @@ Originally, the notes were developed in Obsidian. Unfortunately, the syntax of `
 ## Resources available
 
 ### Target machines
-- [DeathNote](IT/CyberSec/Targets/DeathNote/DeathNote.md) 
 - [C0lddBox](IT/CyberSec/Targets/C0ldBox/C0lddbox.md)
+- [DeathNote](IT/CyberSec/Targets/DeathNote/DeathNote.md) 
 - [OWASP Juice Shop](IT/CyberSec/Targets/OWASP%20Juice%20Shop/OWASP%20Juice%20Shop.md)
 - [OWASP WebGoat](IT/CyberSec/Targets/OWASP%20WebGoat/OWASP%20WebGoat.md)
 
