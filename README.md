@@ -11,7 +11,7 @@ Originally, the notes were developed in Obsidian. Unfortunately, the syntax of `
 ### Target machines
 - [DeathNote](IT/CyberSec/Targets/DeathNote/DeathNote) 
 - [C0lddBox](IT/CyberSec/Targets/C0ldBox/C0lddbox)
-- [OWASP Juice Shop](IT/CyberSec/Targets/OWASP%20Juice Shop/OWASP%20Juice%20Shop)
+- [OWASP Juice Shop](IT/CyberSec/Targets/OWASP%20Juice%20Shop/OWASP%20Juice%20Shop)
 - [OWASP WebGoat](IT/CyberSec/Targets/OWASP%20WebGoat/OWASP%20WebGoat)
 
 ### IDS/IPS
