@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
