@@ -47,7 +47,7 @@ The assignments accomplished are listed here
 | [User Credentials](5.md)        | 4/6        | Slightly advanced sqli                                                                                                  |
 | [Ephemeral Accountant](5.md)    | 4/6        | SQLite schema retention, sqli login as not existing user                                                                |
 | [Bjoern Password Reset](7.md)   | 5/6        | Using SQLI to retrieve OSINT vector                                                                                     |
-| [Forged Signed JWT](8.md)       | 6/6        | Directory fuzzing, JWT forging with `openssl`                                                                           |
+| [Forged Signed JWT](8.md)       | 6/6<br>5/6 | Directory fuzzing, JWT forging with `openssl`. Unsigned JWT forging in addition                                         |
 
 ## Flags
 The flags captured are listed here

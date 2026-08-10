@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8"
+              "title": "OWASP Juice Shop"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
+                "file": "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "623ae30761df3d98",
   "lastOpenFiles": [
+    "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
     "Cache/IMGs/Pasted image 20260809165849.png",
     "Cache/IMGs/Pasted image 20260810025727.png",
     "Cache/IMGs/Pasted image 20260810025930.png",
@@ -203,13 +204,11 @@
     "IT/CyberSec/Targets/C0ldBox/1.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
     "README.md",
     "IT/CyberSec/SIEM/Splunk.md",
     "IT/CyberSec/IDS_IPS/Suricata.md",
     "IT/CyberSec/IDS_IPS/IDS_IPS.md",
-    "Cache/IMGs/Pasted image 20260809022048.png",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
     "JWT.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
