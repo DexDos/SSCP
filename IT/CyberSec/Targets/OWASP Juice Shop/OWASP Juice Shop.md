@@ -45,7 +45,7 @@ The assignments accomplished are listed here
 | [Sensitive data exposure](3.md) | 1/6<br>4/6 | Utilizing `ffuf` to eventually retrieve a document from a hidden (disallowed in `robots.txt`) route. <br>**Easter Egg** |
 | [Admin login](4.md)             | 2/6        | Basic sqli                                                                                                              |
 | [User Credentials](5.md)        | 4/6        | Slightly advanced sqli                                                                                                  |
-| [Ephemeral Accountant](5.md)    | 4/6        | SQLite schema retention, sqli login as not existing user                                                                |
+| [Ephemeral Accountant](6.md)    | 4/6        | SQLite schema retention, sqli login as not existing user                                                                |
 | [Bjoern Password Reset](7.md)   | 5/6        | Using SQLI to retrieve OSINT vector                                                                                     |
 | [Forged Signed JWT](8.md)       | 6/6<br>5/6 | Directory fuzzing, JWT forging with `openssl`. Unsigned JWT forging in addition                                         |
 | [2FA](9.md)                     | 5/6        | SQLI to retrieve TOTP secret; custom TOTP generator development                                                         |
