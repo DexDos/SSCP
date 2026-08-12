@@ -182,17 +182,17 @@ The result is pretty much the same:
 ## Cases 
 There are two introductory sections: *introduction* and *general*. - **Introduction** lists some basic facts about WebGoat and WebWolf further usage. - **General** dives a bit into the networking, dev tools and other stuff. These sections are pretty basic do not cover any specific information. They are aimed to introduce the user to some fundamental concepts and tools which are necessary for further assignments.
 
-| link                                  | completion status | uploaded to git | description              |
-| ------------------------------------- | ----------------- | --------------- | ------------------------ |
-| [Broken Access Control](./1.md)       | done              | yes             | The SS assignment        |
-| [Cryptographic failures](./2.md)      | done              | yes             | Basic cryptography stuff |
-| [Injection](./3.md)                   | done              | partially       | SQLI manual              |
-| [Security Misconfiguration](./4.md)   | done              |                 |                          |
-| [Vuln & Outdated Components](./5.md)  | to be done        |                 |                          |
-| [Identity & Auth Failure](./6.md)     | to be done        |                 |                          |
-| [Software & Data Integrity](./7.md)   | to be done        |                 |                          |
-| [Security & Login Failures](./8.md)   | to be done        |                 |                          |
-| [Server-side Request Forgery](./9.md) | to be done        |                 |                          |
+| link                                  | completion status | uploaded to git | description                 |
+| ------------------------------------- | ----------------- | --------------- | --------------------------- |
+| [Broken Access Control](./1.md)       | done              | yes             | The SS assignment           |
+| [Cryptographic failures](./2.md)      | done              | yes             | Basic cryptography stuff    |
+| [Injection](./3.md)                   | done              | yes             | SQLI + XXS + Path traversal |
+| [Security Misconfiguration](./4.md)   | done              |                 | CSRF + XXE                  |
+| [Vuln & Outdated Components](./5.md)  | #TODO             |                 |                             |
+| [Identity & Auth Failure](./6.md)     | #TODO             |                 |                             |
+| [Software & Data Integrity](./7.md)   | #TODO             |                 |                             |
+| [Security & Login Failures](./8.md)   | #TODO             |                 |                             |
+| [Server-side Request Forgery](./9.md) | #TODO             |                 |                             |
 
 ## Flags 
 
