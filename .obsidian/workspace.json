@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3"
+              "title": "OWASP WebGoat"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/3.md",
+                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "1a29aad42612bc30",
   "lastOpenFiles": [
+    "IT/CyberSec/Targets/OWASP WebGoat/3.md",
     "Cache/IMGs/Pasted image 20260812135240.png",
     "Cache/IMGs/Pasted image 20260812135316.png",
     "Cache/IMGs/Pasted image 20260812145322.png",
@@ -200,9 +201,7 @@
     "Cache/IMGs/Pasted image 20260812150244.png",
     "Cache/IMGs/Pasted image 20260812150327.png",
     "Cache/IMGs/Pasted image 20260812150400.png",
-    "Cache/IMGs/Pasted image 20260812150433.png",
     "Pasted image 20260812221805.png.md",
-    "IT/CyberSec/Targets/OWASP WebGoat/3.md",
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
     "IT/CyberSec/Targets/C0ldBox/1.md",
     "IT/CyberSec/Targets/C0ldBox/C0lddbox.md",
