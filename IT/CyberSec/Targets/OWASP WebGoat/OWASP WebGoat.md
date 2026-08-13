@@ -186,7 +186,7 @@ There are two introductory sections: *introduction* and *general*. - **Introduct
 | ------------------------------------- | ----------------- | --------------- | --------------------------- |
 | [Broken Access Control](./1.md)       | done              | yes             | The SS assignment           |
 | [Cryptographic failures](./2.md)      | done              | yes             | Basic cryptography stuff    |
-| [Injection](./3.md)                   | done              | yes             | SQLI + XXS + Path traversal |
+| [Injection](./3.md)                   | done              | yes             | SQLI + XSS + Path traversal |
 | [Security Misconfiguration](./4.md)   | done              |                 | CSRF + XXE                  |
 | [Vuln & Outdated Components](./5.md)  | #TODO             |                 |                             |
 | [Identity & Auth Failure](./6.md)     | #TODO             |                 |                             |
