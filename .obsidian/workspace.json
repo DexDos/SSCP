@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Extra assignments/Mail/email.md",
-                "mode": "preview",
-                "source": true
+                "file": "IT/CyberSec/Extra assignments/Digital Forensics/BSidesAmman21.E01.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "email"
+              "title": "BSidesAmman21.E01"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Extra assignments/Mail/email.md",
+                "file": "IT/CyberSec/Extra assignments/Digital Forensics/BSidesAmman21.E01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,17 +190,21 @@
   },
   "active": "bf2c63969c35e96a",
   "lastOpenFiles": [
+    "Cache/IMGs/Pasted image 20260824221749.png",
+    "Cache/IMGs/Pasted image 20260824230843.png",
+    "Cache/IMGs/Pasted image 20260824231302.png",
+    "Cache/IMGs/Pasted image 20260824231326.png",
+    "Cache/IMGs/Pasted image 20260824233258.png",
+    "Cache/IMGs/Pasted image 20260824233312.png",
+    "Cache/IMGs/Pasted image 20260825004420.png",
+    "Cache/IMGs/Pasted image 20260825004939.png",
+    "Cache/IMGs/Pasted image 20260824215303.png",
+    "Cache/IMGs/Pasted image 20260824215545.png",
+    "Cache/IMGs/Pasted image 20260824221413.png",
+    "Pasted image 20260824231326.png.md",
+    "IT/CyberSec/Extra assignments/Digital Forensics/BSidesAmman21.E01.md",
+    "Pasted image 20260825004420.png.md",
     "IT/CyberSec/Extra assignments/Mail/email.md",
-    "Cache/IMGs/Pasted image 20260814215500.png",
-    "Cache/IMGs/Pasted image 20260814215510.png",
-    "Cache/IMGs/Pasted image 20260814225258.png",
-    "Cache/IMGs/Pasted image 20260815155107.png",
-    "Cache/IMGs/Pasted image 20260815220500.png",
-    "Cache/IMGs/Pasted image 20260818121757.png",
-    "Cache/IMGs/Pasted image 20260821181220.png",
-    "Cache/IMGs/Pasted image 20260821205254.png",
-    "Cache/IMGs/Pasted image 20260821211845.png",
-    "Cache/IMGs/Pasted image 20260821212531.png",
     "IT/CyberSec/SIEM/Splunk.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/9.md",
     "IT/CyberSec/Extra assignments/Digital Forensics",
@@ -225,9 +229,6 @@
     "IT/CyberSec/Targets/OWASP Juice Shop/5.md",
     "IT/CyberSec/SIEM/SIEM.md",
     "Pasted image 20260805194038.png.md",
-    "Pasted image 20260805151314.png.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/4.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/3.md",
     "Cache/IMGs/Splunk practice task for quiz.pdf",
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
     "Cache/IMGs/Полный гайд по Turbo Intruder.pdf",

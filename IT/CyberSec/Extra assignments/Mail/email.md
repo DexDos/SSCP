@@ -14,7 +14,7 @@ A standard protocol for **sending** mail is [[SMTP]]:
 
 ![Pasted image 20260815220500.png](../../../../Cache/IMGs/Pasted%20image%2020260815220500.png)
 
-Primarily, SMTP serves to send mail from sender's MUA to the respondent's MUA directly. To there might be the case of bare SMTP usage. However, respondents might not be available at some point which will cause SMTP failures and potential SPOOL overflow problems, casting a MUA readiness requesting necessity alongside. To solve this kind of problem international mail infrastructure implemented mail brokers (MDA / MRA), which either give full access to the mail stored on a broker server ([[IMAP]]), or passing it to the recipient when they are online ([[POP3]]).
+Originally, SMTP was serving to send mail from sender's MUA to the respondent's MUA directly and it is still possible to do so, bypassing all these fancy MDA/MRA agents. Unfortunately, such a way of usage is vastly inconvenient because it needs both sender and recipient to stay online. Subsequently, recipients might not be available at some point which will cause SMTP failures and potential SPOOL overflow problems, casting a MUA readiness requesting necessity alongside. To solve this kind of problem international mail infrastructure implemented mail brokers (MDA / MRA), which either give full access to the mail stored on a broker server ([[IMAP]]), or passing it to the recipient when they are online ([[POP3]]).
 
 Although the infrastructure is already robust enough, it is still vulnerable to a number of versatile exploitation techniques like [[phishing]]. To mitigate any risks the world came up with some set of defensive measures, which are being implemented all over the place: [[DKIM]], [[SPF]] and [[DMARC]].
 
@@ -155,7 +155,7 @@ Hash algorithm versions:
 
 Digital signature algorithm versions:
 - `RSA` — minimum 2048 bit length recommended
-- `Ec25519` — added in **RFC 8463**
+- `Ed25519` — added in **RFC 8463**
 
 To do this, we need to generate a key pair:
 ```bash
@@ -181,8 +181,9 @@ where
 
 `mail` — the **selector**. You can specify multiple records with different selectors, where each record will have its own key. This is used when multiple servers are involved. Each server has its own key
 `v` — the DKIM version, which always takes the value `v=DKIM1`
-`a` — key type and hashing algorithm (`-` is a delimiter)
-`p` — public key, encoded in `base64url`
+`k` — key type (`k=rsa` or `k=ed25519`) 
+`a` — specifies supported signature and hashing algorithms (`-` is a delimiter)
+`p` — public key, encoded in `base64`
 `t` — Flags:
 - `t=y` — test mode. These records differ from unsigned ones and are intended solely for tracking results
 - `t=s` — means that the record will be used only for the domain to which the record applies; not recommended if subdomains are used
@@ -196,17 +197,6 @@ Possible values:
 `i` —  the AUID on behalf of which the SDID is taking responsibility
 `l` — body length count
 
-You should also configure an ADSP record, which specifies whether an email must be signed or not.
-```
-_adsp._domainkey.example.com. TXT "dkim=all"
-```
-
-There are three possible values:
-
-`all` — All emails must be signed
-`discardable` — Do not accept unsigned emails
-`unknown` — Unknown (which is essentially the same as having no record)
-
 Another example of a header:
 ```txt
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=chess.com; h=content-transfer-encoding:content-type:date:from:mime-version:subject: reply-to:list-id:list-unsubscribe:list-unsubscribe-post:to:cc:content-type: date:feedback-id:from:subject:to; s=s1; t=1786642452; bh=CAS4oFyI7dSG995B14hBadLxvU0JDO+1Jt2wYCnmG1M=; b=GclmDhqlo/RyyGjHhue7jVSSKx0RbmKRYsLE2uvchYqdwIZxV3WmQMImfbXKHnyU0MFS /VPZgd79kGFmZX+lDGOXZNE3wRbb65D/07g0ajTVYmti1YozOG8k+hc5gT8wyOh4kVgZAk a1lGGMYxQGxeVPefDWsoZGpdSSkTCfrdR+HDwWdY/Bk2JKRwDmbetWMhcoZMGr7mpsBLB4 ongjKFwqXXwIw/VXCvyc9E2ZoQ2B40eKZWLMOi/HPYdpGCfig5lzeGxIq7HVNhBrTR+y56 dmUhJR7f9c7jST/cou5y0sAtXQGoyAxbPmnnIp33smwgVfQ+PRDD5HTUZQ6yx/UA==
@@ -215,10 +205,10 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=chess.com; h=content-tra
 Here:
 `h` — list of headers which take part in a signature validation
 `bh` — body hash needed to verify integrity. Since `a=rsa-sha256`, the hashing algorithm used is `sha256`:
-	`bh = base64url( sha256( canonicalized_body ))`
+	`bh = base64( sha256( canonicalized_body ))`
 	`canonicalized_body` — everything transferred within SMTP `data` command, canonicalized to the common syntax
 `b` — the signature:
-	`b = base64url( RSA_signature( sha256( canonicalized_headers <CR><LF> DKIM-Signature_header )))`
+	`b = base64( RSA_signature( sha256( canonicalized_headers <CR><LF> DKIM-Signature_header )))`
 
 More about [[RSA]], [[ECDSA]] and [[SHA-256]].
 
@@ -263,7 +253,7 @@ c=relaxed/relaxed
 `simple` — nothing will be changed
 `relaxed`:
 - Headers:
-	- Are brought to lowercase 
+	- Header keys (not values) are brought to lowercase 
 	- Multiple space (`%20`) chars are replaced with a single one
 	- Odd offsets are deleted
 	- Each header is ended with `<CR><LF>`
@@ -359,7 +349,7 @@ DMARC then checks validity of domains based on `aspf` and `adkim` parameters, wh
 
 ![Pasted image 20260824133948.png](../../../../Cache/IMGs/Pasted%20image%2020260824133948.png)
 
-If at least one `DKIM d` or `SPF Mail From` match `From` then DMARC is approved and mail gets transferred to MDA (Mail Delivery Agent). If none matches, the retrieved from DNS query policy is enforced:
+If at least one `DKIM d` or `SPF Mail From` **alligns** `From` then DMARC is approved and mail gets transferred to MDA (Mail Delivery Agent). If none matches, the retrieved from DNS query policy is enforced:
 - `none` — no limitations take place. Mail gets delivered. Domain host gets notified by reports
 - `quarantine` — email is sent to SPAM
 - `reject` — email does not get delivered
