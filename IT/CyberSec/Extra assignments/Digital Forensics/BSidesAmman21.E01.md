@@ -197,6 +197,8 @@ Entry #: 1
 | **2026-08-23 23:14** | Analysis Workstation           | Examiner Repo          | Експорт артефактів користувача `joker`: LNK, Jump Lists (`469e4a7982cea4d4.automaticDestinations-ms`), `NTUSER.DAT` | Вилучені артефакти збережені у локальній робочій директорії дослідження |
 | **2026-08-23 23:44** | Analysis Workstation           | Examiner Repo          | Експорт системних артефактів: Prefetch (`WORDPAD.EXE-*.pf`)                                                         | Перевірка збігу часових міток і вивантаження виводу `JLECmd`            |
 | **2026-08-24 01:30** | Analysis Workstation           | Secure Evidence Store  | Демонтування образу, фіксація звіту дослідження                                                                     | Хеш вихідного образу валідований повторно: **MATCH**                    |
+
+
 Усі аналітичні дії проводилися виключно на робочій копії або через монтування у режимі тільки для читання (Read-Only), що гарантує незмінність оригінального образу `BSidesAmman21.E01`.
 
 ## Methods and tools used
