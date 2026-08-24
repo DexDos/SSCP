@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae673212a11143f4",
+        "id": "47ee4c617030e938",
         "type": "tabs",
         "children": [
           {
-            "id": "1a29aad42612bc30",
+            "id": "bf2c63969c35e96a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
-                "mode": "source",
-                "source": false
+                "file": "IT/CyberSec/Extra assignments/Mail/email.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "OWASP WebGoat"
+              "title": "email"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
+                "file": "IT/CyberSec/Extra assignments/Mail/email.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,32 +188,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "1a29aad42612bc30",
+  "active": "bf2c63969c35e96a",
   "lastOpenFiles": [
+    "IT/CyberSec/Extra assignments/Mail/email.md",
+    "Cache/IMGs/Pasted image 20260814215500.png",
+    "Cache/IMGs/Pasted image 20260814215510.png",
+    "Cache/IMGs/Pasted image 20260814225258.png",
+    "Cache/IMGs/Pasted image 20260815155107.png",
+    "Cache/IMGs/Pasted image 20260815220500.png",
+    "Cache/IMGs/Pasted image 20260818121757.png",
+    "Cache/IMGs/Pasted image 20260821181220.png",
+    "Cache/IMGs/Pasted image 20260821205254.png",
+    "Cache/IMGs/Pasted image 20260821211845.png",
+    "Cache/IMGs/Pasted image 20260821212531.png",
+    "IT/CyberSec/SIEM/Splunk.md",
+    "IT/CyberSec/Targets/OWASP Juice Shop/9.md",
+    "IT/CyberSec/Extra assignments/Digital Forensics",
+    "IT/CyberSec/Extra assignments/Mail",
+    "IT/CyberSec/Extra assignments",
     "IT/CyberSec/Targets/OWASP WebGoat/3.md",
-    "Cache/IMGs/Pasted image 20260812135240.png",
-    "Cache/IMGs/Pasted image 20260812135316.png",
-    "Cache/IMGs/Pasted image 20260812145322.png",
-    "Cache/IMGs/Pasted image 20260812145634.png",
-    "Cache/IMGs/Pasted image 20260812145805.png",
-    "Cache/IMGs/Pasted image 20260812150115.png",
-    "Cache/IMGs/Pasted image 20260812150222.png",
-    "Cache/IMGs/Pasted image 20260812150244.png",
-    "Cache/IMGs/Pasted image 20260812150327.png",
-    "Cache/IMGs/Pasted image 20260812150400.png",
-    "Pasted image 20260812221805.png.md",
     "IT/CyberSec/Targets/OWASP WebGoat/OWASP WebGoat.md",
+    "Pasted image 20260812221805.png.md",
     "IT/CyberSec/Targets/C0ldBox/1.md",
     "IT/CyberSec/Targets/C0ldBox/C0lddbox.md",
     "IT/CyberSec/Targets/OWASP WebGoat/1.md",
     "IT/CyberSec/Targets/OWASP WebGoat/2.md",
     "Pasted image 20260811152038.png.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/9.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/OWASP Juice Shop.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/8.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/7.md",
     "README.md",
-    "IT/CyberSec/SIEM/Splunk.md",
     "IT/CyberSec/IDS_IPS/Suricata.md",
     "IT/CyberSec/IDS_IPS/IDS_IPS.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/6.md",
@@ -224,16 +228,12 @@
     "Pasted image 20260805151314.png.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/4.md",
     "IT/CyberSec/Targets/OWASP Juice Shop/3.md",
-    "IT/CyberSec/Targets/OWASP Juice Shop/2.md",
     "Cache/IMGs/Splunk practice task for quiz.pdf",
     "Cache/IMGs/Продвинутый_чеклист_по_Recon_Не__что_запускать_,_а_как_думать.pdf",
     "Cache/IMGs/Полный гайд по Turbo Intruder.pdf",
     "Cache/IMGs/Untitled.base",
     "Cache/IMGs/rfc1180.pdf",
     "Cache/IMGs/RFC1180-русский-перевод.pdf",
-    "Cache/IMGs/nmap_mindmap.pdf",
-    "Cache/IMGs/Kali-Linux-Cheat-Sheet-1.pdf",
-    "Cache/IMGs/hacking_tools_cheat_sheet_v2.0.pdf",
-    "Cache/IMGs/hacking_tools_cheat_sheet_v2.0 1.pdf"
+    "Cache/IMGs/nmap_mindmap.pdf"
   ]
 }
