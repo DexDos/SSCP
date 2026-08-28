@@ -19,3 +19,7 @@ Originally, the notes were developed in Obsidian. Unfortunately, the syntax of `
 
 ### SIEM
 - [Splunk](IT/CyberSec/SIEM/Splunk.md)
+
+### Supplementary Assignments
+- [DKIM SPF DMARC](IT/Cybersec/Extra%20assignments/Mail/email.md)
+- [BSidesAmman21.E01 Digital Forensics case](IT/Cybersec/Extra%20assignments/Digital%20Forensics/BSidesAmman21.E01.md)
